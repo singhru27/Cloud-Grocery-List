@@ -61,5 +61,5 @@ to run the server.
 
 The homepage can then be reached via browser at 
 ```
-http://localhost:3000/\
+http://localhost:3000/
 ```
