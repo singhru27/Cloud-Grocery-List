@@ -14,8 +14,6 @@ app.set("views", path.join(__dirname, "/views"));
 app.use(methodOverride('_method'))
 
 const password = process.env.MONGO_PASSWORD
-console.log(`mongodb+srv://singhru:${password}@rsdb.bodim.mongodb.net/Grocery?retryWrites=true&w=majority`)
-
 mongoose.connect(`mongodb+srv://singhru:${password}@rsdb.bodim.mongodb.net/Grocery?retryWrites=true&w=majority`)
     .then(() => {
         console.log("Connection Accepted");

@@ -17,7 +17,7 @@ This project is completed
 
 To see the application in action, visit the following URL. Please note that any data you submit will be visible to all other users of the application:
 ```
-http://ec2-54-165-76-188.compute-1.amazonaws.com:3000/products
+productdb.rujulsingh.com
 ```
 
 To run the application locally/make changes, please do the following. 
